@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+*{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    color: #666;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+
+body{
+    height: 100%;
+    background: #2B2B2B;
+}
+.center{
+    display: block;
+    margin:  0 auto;
+    width: 350px;
+}
+.log-container {
+    display: block;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #dadada;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    /*box-shadow: 0 0 5px rgba(255,255,255,0.7);*/
+}
+
+.log-container .log-form{
+    padding-top: 30px;
+}
+
+.log-header{
+    overflow: auto;
+}
+.frigth{
+    float: right;
+}
+
+.log-container form{
+    vertical-align: middle;
+}
+
+form .input-group,form .input-group-r{
+    padding-bottom: 10px;
+}
+
+form .input-group-r{
+    text-align: right;
+}
+
+.log-container form .input-group label{
+    display: inline-block;
+    width: 80px;
+    
+}
+
+.log-container form .input-group input[type="text"]{
+    display: inline-block;
+    width: 190px;
+}
+
+.log-container form label{
+    width: 150px;
+}
+
+.log-container .avatar{
+    text-align: center;
+}
+
+.log-container .avatar img{
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+    border: 2px solid #666;
+    padding: 5px;
+}
+
+.log-container .avatar a{
+    color: tomato;
+}
+
+.btn-default{
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    padding: 10px 20px;
+}
